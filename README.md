@@ -3,6 +3,8 @@
 Projet 11 de la formation OpenClassrooms "Développeur Front End".
 Kasa est une plateforme web de location d’appartements entre particuliers en France.
 
+![screenshot](/src/images/icons/logo.svg)
+
 ## Objectif
 
 L'objectif de ce projet est : **Développez une application Web avec React et React Router**.
