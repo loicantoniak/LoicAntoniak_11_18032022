@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Kasa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet 11 de la formation OpenClassrooms "Développeur Front End".
+Kasa est une plateforme web de location d’appartements entre particuliers en France.
 
-## Available Scripts
+## Objectif
 
-In the project directory, you can run:
+L'objectif de ce projet est : **Développez une application Web avec React et React Router**.
+Ma mission sur ce projet était de démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma. 
 
-### `npm start`
+## Réalisation 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Avec les contraintes techniques définies lors d'une [première réunion](https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf), d'un fichier [JSON](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json) et d'une maquette [Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=4%3A3), j'ai pu créer une application React. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Fabriqué avec
 
-### `npm test`
+* [React](https://fr.reactjs.org/) - bibliothèque Javascript
+* [React-Router](https://reactrouter.com/) - bibliothèque de gestion des routes pour React 
+* [Sass](https://sass-lang.com/) -  préprocesseur CSS (front-end)
+* [NPM](https://www.npmjs.com/) -  Gestionnaire de packages
+* [VSCode](https://code.visualstudio.com/) - Editeur de textes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1 - Téléchargez ce projet et ouvrez le dossier
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2 - Installez les dépendances en tapant dans un terminal `npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3 - Tapez `npm start` dans le terminal et le navigateur s'ouvre sur le port [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Démo live : 
 
-### `npm run eject`
+## Compétences évaluées  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Développer les routes d'une application web avec React Router
+- Initialiser une application web avec un framework
+- Créer des composants avec React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Auteur
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **Loïc Antoniak** _alias_ [@loicantoniak](https://github.com/loicantoniak)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Licence 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Il s'agit d'un projet dans le cadre de la formation [Développeur Front-End](https://openclassrooms.com/fr/paths/314-developpeur-front-end) d'OpenClassrooms. Les documents sont librement réutilisables, mais les images / logo et tout les éléments issus de l'énoncé ne m'appartiennent pas.
