@@ -4,7 +4,7 @@ Projet 11 de la formation OpenClassrooms "Développeur Front End".
 Kasa est une plateforme web de location d’appartements entre particuliers en France.
 
 <p align="center">
-    <img width="400" src="/src/images/icons/logo.svg" alt="logo Kasa">
+    <img width="400" src="/src/assets/icons/logo.svg" alt="logo Kasa">
 </p>
 
 ## Objectif
