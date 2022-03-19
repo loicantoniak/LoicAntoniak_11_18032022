@@ -1,0 +1,21 @@
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+.header {
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  &_logo {
+    width: 145px;
+    height: 47px;
+
+    @include breakpoint(desktop) {
+      width: 210.32px;
+      height: 68px;
+    }
+  }
+}

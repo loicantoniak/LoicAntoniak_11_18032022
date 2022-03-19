@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ErrorPage() {
+export default function NoMatch() {
   return (
     <div>Error404</div>
   )

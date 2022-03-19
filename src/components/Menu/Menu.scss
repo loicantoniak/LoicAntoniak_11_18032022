@@ -1,0 +1,17 @@
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+.menu_container {
+  a {
+    @include font(500, 12, 17.11); 
+    text-decoration: none;
+    color: $color-primary;
+    margin-left: 10px;
+
+    @include breakpoint(desktop) {
+      @include font(500, 24, 34.22); 
+      margin-left: 57px;
+    }
+
+  }
+}

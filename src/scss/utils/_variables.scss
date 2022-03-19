@@ -1,0 +1,22 @@
+// colors
+$color-primary: #ff6060;
+$color-white: #fff;
+$color-black: #000000;
+
+$color-grey1: #f6f6f6;
+$color-grey2: #e3e3e3;
+$color-grey3: #c4c4c4;
+
+// font
+$text-font: "Montserrat";
+
+// breakpoints
+$breakpoints: (
+  tablet: 768px,
+  desktop: 992px,
+  largeScreen: 1200px,
+);
+
+// radius
+$border-radius: 10px;
+$border-radius-large: 25px;

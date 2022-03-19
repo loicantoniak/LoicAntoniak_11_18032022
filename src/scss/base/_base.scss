@@ -1,1 +1,14 @@
+html,
+body {
+  margin: 0 20px;
+  font-family: $text-font, sans-serif;
+  color: $color-primary;
 
+  @include breakpoint(desktop) {
+    margin: 0 100px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}

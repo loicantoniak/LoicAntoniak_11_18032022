@@ -1,6 +1,6 @@
-import HomePage from "./Home/HomePage";
-import LodgingPage from "./Lodging/LodgingPage";
-import AboutPage from "./About/AboutPage";
-import ErrorPage from "./Error/ErrorPage";
+import Home from "./Home/Home";
+import Lodging from "./Lodging/Lodging";
+import About from "./About/About";
+import NoMatch from "./NoMatch/NoMatch";
 
-export {HomePage, LodgingPage, AboutPage, ErrorPage}
+export {Home, Lodging, About, NoMatch}
