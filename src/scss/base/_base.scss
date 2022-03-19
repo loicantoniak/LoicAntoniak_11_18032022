@@ -17,7 +17,7 @@ body {
 .content_wrap {
   margin: 0 20px;
   padding-bottom: 209px;
-  @include breakpoint(desktop) {
+  @include breakpoint(largeScreen) {
     margin: 0 100px;
   }
 }

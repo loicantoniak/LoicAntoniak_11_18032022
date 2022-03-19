@@ -13,7 +13,7 @@
     width: 145px;
     height: 47px;
 
-    @include breakpoint(desktop) {
+    @include breakpoint(largeScreen) {
       width: 210.32px;
       height: 68px;
     }

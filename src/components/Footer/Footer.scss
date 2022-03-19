@@ -12,13 +12,13 @@
   align-items: center;
   justify-content: center;
 
-  @include breakpoint(desktop) {
+  @include breakpoint(largeScreen) {
     justify-content: space-evenly;
   }
 
   img {
     margin: 0;
-    @include breakpoint(desktop) {
+    @include breakpoint(largeScreen) {
       margin-top: 3rem;
     }
   }
@@ -28,7 +28,7 @@
     color: $color-white;
     text-align: center;
 
-    @include breakpoint(desktop) {
+    @include breakpoint(largeScreen) {
       @include font(500, 24, 34.22);
     }
   }

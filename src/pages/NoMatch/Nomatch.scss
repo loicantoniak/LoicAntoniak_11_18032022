@@ -1,0 +1,41 @@
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+.noMatch_container {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    @include font(700, 96, 136.9);
+    margin: 0;
+
+    @include breakpoint(largeScreen) {
+      @include font(700, 288, 410.69);
+    }
+  }
+
+  h2 {
+    @include font(500, 18, 25.67);
+    text-align: center;
+    margin: 0;
+
+    @include breakpoint(largeScreen) {
+      @include font(500, 36, 51.34);
+    }
+  }
+
+  a {
+    @include font(500, 14, 19.96);
+    text-decoration: underline;
+    color: $color-primary;
+    margin-bottom: -3rem;
+    margin-top: 6rem;
+
+    @include breakpoint(largeScreen) {
+      @include font(500, 18, 25.67);
+    }
+  }
+}
