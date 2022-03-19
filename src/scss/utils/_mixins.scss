@@ -7,7 +7,7 @@
 }
 
 @mixin font($weight, $size, $lineHeight) {
-  font-weight: $weight + px;
+  font-weight: $weight;
   font-size: $size + px;
   line-height: $lineHeight + px;
 }

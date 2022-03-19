@@ -1,14 +1,23 @@
 html,
 body {
-  margin: 0 20px;
   font-family: $text-font, sans-serif;
   color: $color-primary;
-
-  @include breakpoint(desktop) {
-    margin: 0 100px;
-  }
+  margin: 0;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.page_container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content_wrap {
+  margin: 0 20px;
+  padding-bottom: 209px;
+  @include breakpoint(desktop) {
+    margin: 0 100px;
+  }
 }
