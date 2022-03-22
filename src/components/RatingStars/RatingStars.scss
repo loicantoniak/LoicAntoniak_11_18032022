@@ -1,0 +1,16 @@
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+.ratingStars_container {
+    svg {
+        margin-right: 5px;
+        height: 15px;
+        width: 15px;
+
+        @include breakpoint(largeScreen) {
+            margin-right: 10px;
+            height: 30px;
+            width: 30px;
+        }
+    }
+}

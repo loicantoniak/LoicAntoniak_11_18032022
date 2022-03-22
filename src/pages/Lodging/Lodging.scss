@@ -1,0 +1,58 @@
+@import "../../scss/utils/variables";
+@import "../../scss/utils/mixins";
+
+.lodging {
+  &_information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @include breakpoint(largeScreen) {
+      flex-direction: row;
+    }
+  }
+
+  &_recap {
+    h1 {
+      @include font(500, 18, 25.67);
+      margin: 0;
+
+      @include breakpoint(largeScreen) {
+        @include font(500, 36, 51.34);
+      }
+    }
+
+    h2 {
+      @include font(500, 14, 19.96);
+      margin: 0.2rem 0 0.5rem;  
+
+      @include breakpoint(largeScreen) {
+        @include font(500, 18, 25.67);
+      }
+    }
+  }
+
+  &_tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    & > * {
+      margin-right: 10px;
+    }
+  }
+
+  &_profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+
+    @include breakpoint(largeScreen) {
+      flex-direction: column-reverse;
+      align-items: flex-end;
+      margin-top: 0;
+      // justify-content: start;
+    }
+  }
+}

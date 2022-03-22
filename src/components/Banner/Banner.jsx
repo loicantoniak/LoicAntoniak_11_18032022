@@ -1,5 +1,17 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./Banner.scss";
+
+Banner.propTypes = {
+  image: PropTypes.node.isRequired,
+  title: PropTypes.string,
+  variant: PropTypes.string,
+};
+
+Banner.defaultProps = {
+  title: null,
+  variant: null,
+};
 
 export default function Banner({ image, title, variant }) {
   return (

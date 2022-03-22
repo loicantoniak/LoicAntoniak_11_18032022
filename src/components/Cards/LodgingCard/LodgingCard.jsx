@@ -1,5 +1,16 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./LodgingCard.scss";
+
+LodgingCard.propTypes = {
+  cover: PropTypes.string,
+  title: PropTypes.string,
+};
+
+LodgingCard.defaultProps = {
+  cover: "",
+  title: "",
+};
 
 export default function LodgingCard({ cover, title }) {
   return (
