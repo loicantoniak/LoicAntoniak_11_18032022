@@ -2,6 +2,15 @@
 @import "../../scss/utils/mixins";
 
 .lodging {
+
+  &_container {
+    padding-bottom: 5rem;
+  }
+
+  &_carousel {
+    margin: 1.5rem 0;
+  }
+
   &_information {
     display: flex;
     justify-content: space-between;

@@ -5,15 +5,21 @@ import { annoucements } from "../../services/announcement";
 import Tag from "../../components/Tag/Tag";
 import HostProfile from "../../components/HostProfile/HostProfile";
 import RatingStars from "../../components/RatingStars/RatingStars";
+import Carousel from "../../components/Carousel/Carousel";
 
 export default function Lodging() {
   const { lodgingId } = useParams();
 
   const lodging = annoucements.find((lodging) => lodging.id === lodgingId);
-  const { title, location, tags, host, rating } = lodging;
+  const { title, location, tags, host, rating, pictures } = lodging;
+
+  console.log(lodging);
 
   return (
     <div className="lodging_container">
+      <div className="lodging_carousel">
+        <Carousel pictures={pictures}/>
+      </div>
       <div className="lodging_information">
         <div className="lodging_recap">
           <h1>{title}</h1>
