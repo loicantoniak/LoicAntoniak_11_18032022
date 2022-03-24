@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/LoicAntoniak_11_18032022/static/css/main.0f2bb658.css",
+    "main.js": "/LoicAntoniak_11_18032022/static/js/main.732d793d.js",
+    "static/js/787.0ce615c0.chunk.js": "/LoicAntoniak_11_18032022/static/js/787.0ce615c0.chunk.js",
+    "static/media/moutain.png": "/LoicAntoniak_11_18032022/static/media/moutain.94f24ccf80b25266d8bb.png",
+    "static/media/falaise.png": "/LoicAntoniak_11_18032022/static/media/falaise.5928b6d174cd2b6bb288.png",
+    "static/media/logo.svg": "/LoicAntoniak_11_18032022/static/media/logo.28bcdc5933dc39a590d83eb2133ce13c.svg",
+    "static/media/logo_white.svg": "/LoicAntoniak_11_18032022/static/media/logo_white.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "index.html": "/LoicAntoniak_11_18032022/index.html",
+    "static/media/arrow_top.svg": "/LoicAntoniak_11_18032022/static/media/arrow_top.ecf1488896136f153bb1ae871e39b72d.svg",
+    "static/media/arrow_bottom.svg": "/LoicAntoniak_11_18032022/static/media/arrow_bottom.b052dd29e3a2bab76700eee79e133c37.svg",
+    "static/media/arrow_right.svg": "/LoicAntoniak_11_18032022/static/media/arrow_right.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/arrow_left.svg": "/LoicAntoniak_11_18032022/static/media/arrow_left.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.0f2bb658.css.map": "/LoicAntoniak_11_18032022/static/css/main.0f2bb658.css.map",
+    "main.732d793d.js.map": "/LoicAntoniak_11_18032022/static/js/main.732d793d.js.map",
+    "787.0ce615c0.chunk.js.map": "/LoicAntoniak_11_18032022/static/js/787.0ce615c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f2bb658.css",
+    "static/js/main.732d793d.js"
+  ]
+}
