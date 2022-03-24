@@ -1,9 +1,10 @@
 import React from "react";
 import "./Home.scss";
 import { Link } from "react-router-dom";
+import { annoucements } from "../../services/announcement";
+// Components
 import Banner from "../../components/Banner/Banner";
 import LodgingCard from "../../components/Cards/LodgingCard/LodgingCard";
-import { annoucements } from "../../services/announcement";
 import image from "../../assets/images/falaise.png";
 
 export default function Home() {

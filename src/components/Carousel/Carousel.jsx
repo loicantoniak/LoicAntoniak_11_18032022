@@ -5,6 +5,10 @@ import PropTypes from "prop-types";
 import { ReactComponent as ArrowLeft } from ".././../assets/icons/arrow_left.svg";
 import { ReactComponent as ArrowRight } from ".././../assets/icons/arrow_right.svg";
 
+Carousel.propTypes = {
+  pictures: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
+
 export default function Carousel({ pictures }) {
   const carouselRef = createRef(null);
   const [position, setPosition] = useState(1);
@@ -12,6 +16,7 @@ export default function Carousel({ pictures }) {
   const [transitionTime, setTransitionTime] = useState(0);
 
   function handleResize() {
+    setTransitionTime(0);
     setWidth(carouselRef.current.clientWidth);
   }
 
