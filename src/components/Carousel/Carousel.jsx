@@ -39,10 +39,12 @@ export default function Carousel({ pictures }) {
 
   return (
     <div className="carousel_container" ref={carouselRef}>
-      <ArrowLeft
-        className="carousel_arrowLeft"
-        onClick={() => handleClickPrevious()}
-      />
+      {pictures.length > 1 && (
+        <ArrowLeft
+          className="carousel_arrowLeft"
+          onClick={() => handleClickPrevious()}
+        />
+      )}
 
       {pictures.map((picture, i) => (
         <img
@@ -60,10 +62,12 @@ export default function Carousel({ pictures }) {
         {position}/{pictures.length}
       </span>
 
-      <ArrowRight
-        className="carousel_arrowRight"
-        onClick={() => handleClickNext()}
-      />
+      {pictures.length > 1 && (
+        <ArrowRight
+          className="carousel_arrowRight"
+          onClick={() => handleClickNext()}
+        />
+      )}
     </div>
   );
 }
